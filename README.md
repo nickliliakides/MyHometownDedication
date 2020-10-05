@@ -1,1 +1,1 @@
-# MyHometownDedication
+# Thessaloniki-Guide

@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <!--<link rel="stylesheet" href="css/icon-font.css">-->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/whiteTowerLogo.png" />
+
+    <title>Salonica City | The North Greece's Diamond</title>
+  </head>
+
+  <body>
+    <div class="navigation" id="home">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+            <ul class="navigation__list hidden">
+                <li class="navigation__item">
+                    <a href="#home" class="navigation__link active" data-toggle="tab" 
+                      ><span><i class="fas fa-home"></i></span>Home</a
+                    >
+                  </li>
+                <li class="navigation__item">
+                  <a href="#section-about" class="navigation__link active" data-toggle="tab" 
+                    ><span><i class="fas fa-info-circle"></i></span>About The City</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="#section-features" class="navigation__link active" data-toggle="tab"
+                    ><span><i class="fas fa-eye"></i></span>Must See</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="#section-museums" class="navigation__link active" data-toggle="tab"
+                    ><span><i class="fas fa-landmark"></i></span>Best Museums</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="#section-gastro" class="navigation__link active" data-toggle="tab"
+                    ><span><i class="fas fa-utensils"></i></span>Where to eat</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="#section-book" class="navigation__link active" data-toggle="tab"
+                    ><span><i class="fas fa-pen-alt"></i></span>Subscribe</a
+                  >
+                </li>
+              </ul>       
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/SalonicaLogo2.png" alt="Logo" class="header__logo" />
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Salonica</span>
+          <span class="heading-primary--sub"
+            >Alexander's The Great Homeland</span
+          >
+        </h1>
+
+        <a href="#section-features" class="btn btn--white btn--animated btn--head"
+          >Attractions</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about" id="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            About the city capital of Greek Macedonia
+          </h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small history">
+              History of Thessaloniki
+            </h3>
+            <p class="paragraph">
+              The history of the city of Thessaloniki is a long one, dating back
+              to the Ancient Greeks. Today with the opening of borders in
+              Southeastern Europe it is currently experiencing a strong revival,
+              serving as the prime port for the northern Greek regions of
+              Macedonia and Thrace, as well as for the whole of Southeastern
+              Europe.
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Hellenistic era
+            </h3>
+            <p class="paragraph">
+              The city was founded around 315 BC by King Cassander of Macedon,
+              on or near the site of the ancient town of Therma and twenty-six
+              other local villages. King Cassander of Macedon named the new city
+              after his wife Thessalonike, a half-sister of Alexander the Great.
+              She gained her name ("victory of Thessalians", from Greek "niki" =
+              "victory" from her father, Philip II, to commemorate her birth on
+              the day of his gaining a victory over the Phocians, who were
+              defeated with the help of Thessalian horsemen, the best in Greece
+              at that time. Thessaloniki developed rapidly and as early as the
+              2nd century BC, it had its first walls built, which enclosed and
+              protected the city. The city also came to be an autonomous part of
+              the Kingdom of Macedon, with its own parliament where a King was
+              represented that could interfere in the city's domestic affairs.
+            </p>
+
+            <a
+              href="https://en.wikipedia.org/wiki/History_of_Thessaloniki"
+              target="_blank"
+              class="btn-text"
+              >Learn more &rarr;</a
+            >
+          </div>
+
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                srcset="
+                  img/WhTowerNight.jpg     300w,
+                  img/WhTowerNight-lg.jpg 1000w
+                "
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+                src="img/WhTowerNight-lg.jpg"
+              />
+
+              <img
+                srcset="
+                  img/kamaraRotonda.jpg     300w,
+                  img/kamaraRotonda-lg.jpg 1000w
+                "
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+                src="img/kamaraRotonda-lg.jpg"
+              />
+
+              <img
+                srcset="img/kingAlex.jpg 300w, img/kingAlex-lg.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+                src="img/kingAlex-lg.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features" id="section-features">
+        <div class="u-center-text u-margin-bottom-big u-margin-top-minus">
+          <h2 class="heading-secondary2">A city full of history</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <a
+                href="https://inthessaloniki.com/item/white-tower-museum/"
+                target="_blank"
+              >
+                <h3 class="heading-tertiary u-margin-bottom-xsmall">
+                  White Tower
+                </h3>
+                <img
+                  class="feature-box__pic"
+                  src="./img/White-Tower.jpg"
+                  alt="white tower"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <a
+                href="https://inthessaloniki.com/explore/ano-poli-upper-town/"
+                target="_blank"
+              >
+                <h3 class="heading-tertiary u-margin-bottom-xsmall">
+                  Old City
+                </h3>
+                <img
+                  class="feature-box__pic"
+                  src="./img/oldTown.jpg"
+                  alt="Old City"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <a
+                href="https://inthessaloniki.com/item/arch-of-galerius-298-299-ad/"
+                target="_blank"
+              >
+                <h3 class="heading-tertiary u-margin-bottom-xsmall">
+                  Arch of Galerius
+                </h3>
+                <img
+                  class="feature-box__pic"
+                  src="./img/galeriusArch.jpg"
+                  alt="Galerius Arch"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <a
+                href="https://inthessaloniki.com/item/roman-forum-ancient-agora/"
+                target="_blank"
+              >
+                <h3 class="heading-tertiary u-margin-bottom-xsmall">
+                  Ancient Agora
+                </h3>
+                <img
+                  class="feature-box__pic"
+                  src="./img/AncientAgora.jpg"
+                  alt="Ancient Agora"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <a
+                href="https://inthessaloniki.com/item/alexander-the-great-monument-alexander-the-3rd/"
+                target="_blank"
+              >
+                <h3 class="heading-tertiary u-margin-bottom-xsmall">
+                  Great Alexander Monument
+                </h3>
+                <img
+                  class="feature-box__pic"
+                  src="./img/AlexTheGreat.jpg"
+                  alt="Alexander The Great"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <a
+                href="https://inthessaloniki.com/item/agia-sofia/"
+                target="_blank"
+              >
+                <h3 class="heading-tertiary u-margin-bottom-xsmall">
+                  Agia Sophia
+                </h3>
+                <img
+                  class="feature-box__pic"
+                  src="./img/AgiaSophia.jpg"
+                  alt="Agia Sophia"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <a
+                href="https://inthessaloniki.com/item/rotonda-of-galerius/"
+                target="_blank"
+              >
+                <h3 class="heading-tertiary u-margin-bottom-xsmall">
+                  Rotonda of Galerius
+                </h3>
+                <img
+                  class="feature-box__pic"
+                  src="./img/rotondaofgal.jpg"
+                  alt="Rotonda of Galerius"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <a
+                href="https://inthessaloniki.com/item/agios-dimitrios/"
+                target="_blank"
+              >
+                <h3 class="heading-tertiary u-margin-bottom-xsmall">
+                  Catacombs of Agios Dimitrios
+                </h3>
+                <img
+                  class="feature-box__pic"
+                  src="./img/AgiosDimitrios.jpg"
+                  alt="Catacombs of Agios Dimitrios"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-museums" id="section-museums">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Best Museums to Visit</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >Museum of Archeology</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>
+                      <i class="fas fa-map-marker-alt"></i>&nbsp; Manoli
+                      Andronikou 6, 546 21
+                    </li>
+                    <li><i class="fas fa-phone"></i>&nbsp; +30 231 331 0201</li>
+                    <li>
+                      <i class="fas fa-envelope"></i>&nbsp; amth@culture.gr
+                    </li>
+                    <li>
+                      <i class="fas fa-door-open"></i>&nbsp; Opening Hours:
+                    </li>
+                    <li>Monday to Sunday 09:00 - 16:00</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Entry Price</p>
+                    <p class="card__price-value">€8.00/€4.00</p>
+                  </div>
+                  <a
+                    href="https://www.amth.gr/en"
+                    target="_blank"
+                    class="btn btn--white"
+                    ><i class="fas fa-globe-europe"></i>&nbsp;&nbsp; Visit</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >Museum of Byzantium</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>
+                      <i class="fas fa-map-marker-alt"></i>&nbsp; Leoforos
+                      Stratou 2, 546 40
+                    </li>
+                    <li><i class="fas fa-phone"></i>&nbsp; +30 2313 306 400</li>
+                    <li>
+                      <i class="fas fa-envelope"></i>&nbsp; mbp@culture.gr
+                    </li>
+                    <li>
+                      <i class="fas fa-door-open"></i>&nbsp; Opening Hours:
+                    </li>
+                    <li>Monday to Sunday 08:30 - 16:00</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Entry Price</p>
+                    <p class="card__price-value">€8.00/€4.00</p>
+                  </div>
+                  <a
+                    href="http://mbp.gr/en"
+                    target="_blank"
+                    class="btn btn--white"
+                    ><i class="fas fa-globe-europe"></i>&nbsp;&nbsp; Visit</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >Museum of Cinema</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>
+                      <i class="fas fa-map-marker-alt"></i>&nbsp; Warehouse A
+                      Pier, 546 25
+                    </li>
+                    <li><i class="fas fa-phone"></i>&nbsp; +30 2310 508 398</li>
+                    <li>
+                      <i class="fas fa-envelope"></i>&nbsp; info@cinemuseum.gr
+                    </li>
+                    <li>
+                      <i class="fas fa-door-open"></i>&nbsp; Opening Hours:
+                    </li>
+                    <li>Monday to Friday 09:00 - 16:00</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Entry Price</p>
+                    <p class="card__price-value">€2.00/€1.00</p>
+                  </div>
+                  <a
+                    href="https://www.filmfestival.gr/en/museum/visit"
+                    target="_blank"
+                    class="btn btn--white"
+                    ><i class="fas fa-globe-europe"></i>&nbsp;&nbsp; Visit</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a
+            href="https://inthessaloniki.com/cat/museums/"
+            target="_blank"
+            class="btn btn--green"
+            >Find More</a
+          >
+        </div>
+      </section>
+
+      <section class="section-gastro" id="section-gastro">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/Salonica.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported!
+          </video>
+        </div>
+
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Best places to eat</h2>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="img/AthonosSquare.jpg"
+                alt="Athonos Square"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Athonos Square</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Athonos Square is one of the most vibrant and interesting areas.
+              </h3>
+              <p>
+                It is located just before Aristotelous Plaza within a small
+                walkable distance about 200m west of the church of Agia Sofia
+                (Holy Wisdom) thus lying in the heart of the city center. The
+                place is considered one of the best places to eat and a favorite
+                destination for both locals, college students and tourist
+                visitors. There are several taverns specialized in Greek
+                traditional cuisine and recipes, while several Balkan and
+                Eastern flavors and influences are quite obvious as well.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img src="img/Ladadika.jpg" alt="Bit Bazaar" class="story__img" />
+              <figcaption class="story__caption">Ladadika</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Ladadika is one of the hot spots of Thessaloniki when it comes
+                to entertainment.
+              </h3>
+              <p>
+                Following the most popular shopping street of Thessaloniki,
+                Tsimiski Avenue, right after Platia Eleftherias (Freedom Plaza),
+                you will discover “Ladadika” district, a beautiful walkable area
+                which is one of the favorite destinations for both local and
+                tourist visitors and the city’s college community. The colorful
+                buildings are two-story with wide, rectangular windows and,
+                along with the paved alleys, they exhale the spirit of old
+                Thessaloniki.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="img/BitBazaar.jpg"
+                alt="Bit Bazaar"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Bit Bazaar</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Bit Bazaar located north of Aristotelous plaza, about 300m east
+                of the Roman Forum.
+              </h3>
+              <p>
+                Unlike Athonos plaza and Ladadika area, Bit Bazaar is not an
+                obvious, easy to find location. On the contrary, although it has
+                several different entrances, the main plaza is surrounded by
+                tall buildings thus making it difficult to be seen. Don’t
+                hesitate to ask some of the locals in order to explain you how
+                to get there. Bit Bazaar is relatively popular, especially among
+                young people.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a
+            href="https://inthessaloniki.com/food/"
+            target="_blank"
+            class="btn-text"
+            >Read more... &rarr;</a
+          >
+        </div>
+      </section>
+
+      <section class="section-book" id="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form" id="mc_embed_signup">
+              <form action="https://github.us18.list-manage.com/subscribe/post?u=10569c6f07cc7d5741409b3ff&amp;id=a8d20e1df1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form validate" target="_blank" novalidate>
+                <div class="u-margin-bottom-medium" >
+                  <h2 class="heading-secondary">Planning to visit?</h2>
+                  <p class="subscribe">Wanna some more information about the city and region? Please let us know is absolutely free! Just submit a subscription and we will come back to you.</p>
+                </div>
+
+                <div class="form__group mc-field-group" id="mc_embed_signup_scroll">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full name"
+                    id="mce-FNAME"
+                    required
+                  />
+                  <label for="mce-FNAME" class="form__label">Full name</label>
+                </div>
+
+                <div class="form__group mc-field-group" id="mc_embed_signup_scroll">
+                  <input
+                    type="email"
+                    class="form__input email"
+                    placeholder="Email address"
+                    name="EMAIL"
+                    id="mce-EMAIL"
+                    value=""
+                    required
+                  />
+                  <label for="mce-EMAIL" class="form__label">Email address</label>
+                </div>
+
+                <!-- <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span> Small tour group
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span> Large tour group
+                    </label>
+                  </div>
+                </div> -->
+
+                <div class="form__group">
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn--green"></input>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <!-- <source
+            srcset="
+              img/whiteTowerLogo.png.png 1x,
+              img/whiteTowerLogo.png.png 2x
+            "
+            media="(max-width: 37.5em)"
+          /> -->
+          <img
+            srcset="img/whiteTowerLogo.png 1x, img/whiteTowerLogo.png 2x"
+            alt="Full logo"
+            src="img/whiteTowerLogo.png"
+          />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation--1">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="https://www.facebook.com/hermesdevgroup/" target="_blank" class="footer__link"><i class="fab fa-facebook fa-3x"></i></a>
+              </li>
+              <li class="footer__item">
+                <a href="https://twitter.com/web_hermes" target="_blank" class="footer__link"><i class="fab fa-twitter fa-3x"></i></a>
+              </li>
+              <li class="footer__item">
+                <a href="https://plus.google.com/104050644144949085201" target="_blank" class="footer__link"><i class="fab fa-google-plus fa-3x"></i></a>
+              </li>
+              <li class="footer__item">
+                <a href="https://www.linkedin.com/in/nikolaos-liliakidis-820a7236/" target="_blank" class="footer__link"><i class="fab fa-linkedin-in fa-3x"></i></a>
+              </li>
+              <li class="footer__item">
+                <a href="https://www.instagram.com/hermes_web_dev/" target="_blank" class="footer__link"><i class="fab fa-instagram fa-3x"></i></a>
+              </li>
+            </ul>
+          </div>
+          <br><br>
+          <div class="footer__navigation">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#home" class="footer__link active" data-toggle="tab">Home</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#section-about" class="footer__link active" data-toggle="tab">History</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#section-features" class="footer__link active" data-toggle="tab">Sightseeings</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#section-museums" class="footer__link active" data-toggle="tab">Museums</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#section-gastro" class="footer__link active" data-toggle="tab">Dining</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright text-center">
+            Created and designed from scratch by <a href="https://nickliliakides.co.uk/" target="_blank" class="footer__link">Nikolaos Liliakidis</a> in honor of his hometown Thessaloniki in North Greece region of Macedonia.
+            Special thanks to Jonas Schmedtmann and his online course <a href="https://www.udemy.com/advanced-css-and-sass/learn/v4/content" target="_blank" class="footer__link"> Advanced CSS and Sass</a>.<br><a href="mailto:nickliliakides@gmail.com" target="_top" class="footer__link"> Contact the Author</a><br>
+            Copyright &copy; <span id="copyright"> </span>. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
+          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Start booking now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; Please read these terms before booking
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed
+            risus pretium quam. Aliquam sem et tortor consequat id. Volutpat
+            odio facilisis mauris sit amet massa vitae. Mi bibendum neque
+            egestas congue. Placerat orci nulla pellentesque dignissim enim sit.
+            Vitae semper quis lectus nulla at volutpat diam ut venenatis.
+            Malesuada pellentesque elit eget gravida cum sociis natoque
+            penatibus et. Proin fermentum leo vel orci porta non pulvinar neque
+            laoreet. Gravida neque convallis a cras semper. Molestie at
+            elementum eu facilisis sed odio morbi quis. Faucibus vitae aliquet
+            nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet
+            sit. Amet massa vitae tortor condimentum lacinia quis vel eros
+            donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi
+            porta.
+          </p>
+          <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </div>
+    </div> -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
+    <script src="js/script.js"></script>
+    <script src='js/scroll.js'></script>
+  </body>
+</html>

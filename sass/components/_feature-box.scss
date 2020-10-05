@@ -1,0 +1,26 @@
+.feature-box {
+  background-color: rgba($color-white, 0.8);
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  transition: transform 0.3s;
+
+  & > a {
+    text-decoration: none;
+    color: $color-grey-dark-3;
+  }
+
+  &__pic {
+    width: 100%;
+  }
+
+  @include respond(tab-port) {
+    padding-top: 0.8rem;
+  }
+
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.08);
+  }
+}
